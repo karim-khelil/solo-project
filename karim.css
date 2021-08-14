@@ -1,0 +1,337 @@
+
+body {
+  background-size: 100%;
+
+  background-image: url("https://media.istockphoto.com/photos/business-and-education-background-picture-id671101136?k=6&m=671101136&s=170667a&w=0&h=LCAtHUTBydA0MIQEPk5UddLT5IZrHBJCcB9ZvG10yvY=");
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+#part2 {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+#part2{
+
+border: 5px outset red;
+    background-image: url(https://media.istockphoto.com/photos/business-and-education-background-picture-id671101136?k=6&m=671101136&s=170667a&w=0&h=LCAtHUTBydA0MIQEPk5UddLT5IZrHBJCcB9ZvG10yvY=);
+    text-align: left;
+    margin-right: 1141px;
+    margin-top: 61px;
+    height: 423px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+
+#part3 {
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+#part3{
+
+border: 5px outset red;
+    background-image: url(karim.css);
+    text-align: left;
+    margin-right: 737px;
+    margin-top: 61px;
+    height: 421px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 371px;
+}
+
+
+#list{
+    text-align: left;
+  color: black;
+  font-size: 20px;
+}
+
+
+#student {
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+   }
+
+#playlist {
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+   }
+
+#result {
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+   }
+
+
+
+{
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  color: #777;
+}
+span {
+  display: block;
+  margin-top: 2rem;
+  font-size: .7rem;
+  color: #777;
+ 
+}
+
+
+#pic  {
+ max-width: 100%;
+    max-height: 100%;
+
+  opacity: 2;
+}
+
+#addnew{
+    display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: rgb(34, 16, 16);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    left: -6%;
+    bottom: -56%;
+    background-color: greenyellow;
+}
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* style the button  */
+
+.add{
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20%;
+  position: absolute;
+        top: -384px;
+    right: -344px
+}
+
+.add:hover {opacity: 1}
+}
+
+.put{
+  margin-top: 50%;
+  margin-right: 70%;
+  margin-bottom: 40%;
+  margin-left: 15%;
+
+}
+
+#average{
+margin-left: 21px;
+
+}
+
+
+
+#bestscore {
+   background-color: magenta;
+  border: none;
+  font-size: 20px;
+  color: black;
+  padding: 4px;
+  width: 100px;
+  border-radius: 9px;
+  height: 30px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+right: -365px;
+    margin-top: 81px;
+      text-shadow: 1px 1px 2px white, 0 0 25px aqua, 0 0 5px white;
+
+
+}
+
+#bestscore:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#bestscore:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+#bestscore{
+display: inline-block;
+    padding: 2.75rem 5.25rem;
+    border-radius: 6rem;
+    color: rgb(34, 16, 16);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    top: -232px;
+    left: 80px;
+  
+
+}
+
+#ave{
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    top: -430px;
+    left: 19px;
+  
+
+}
+
+
+#succed{
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    top: -500px;
+    left: 13px;
+  
+
+}
+
+#failed{
+  display: inline-block;
+    padding: 0.75rem 2.25rem;
+    border-radius: 3rem;
+    color: #221010;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    top: -455px;
+    left: 38px;
+  
+
+}
